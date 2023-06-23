@@ -1,0 +1,24 @@
+@media (max-width: 580px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  main {
+    margin-bottom: 4.0rem;
+  }
+
+  #timer {
+    margin-bottom: 0.0rem;
+  }
+
+}
+
+@media (max-width: 830px) {
+  header {
+    top: 4.0rem;
+    right: 45%;
+  }
+}
